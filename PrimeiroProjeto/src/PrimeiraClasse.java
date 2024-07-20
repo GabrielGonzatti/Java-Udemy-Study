@@ -2,9 +2,10 @@
 public class PrimeiraClasse {
 
 	public static void main(String[] args) {
-		int inteiro = 10;
-		inteiro += 10;
-		System.out.print(inteiro);
+		for(int i=0; i<10;i++) {
+			System.out.print("O valor é> " + i);
+			
+		}
 	}
 
 }
